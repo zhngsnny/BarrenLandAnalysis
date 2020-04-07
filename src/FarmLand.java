@@ -35,12 +35,12 @@ public class FarmLand {
      */
     public FarmLand(int LENGTH, int WIDTH) {
         if (LENGTH < 1) {
-            throw new IllegalArgumentException("LENGTH cannot be <= 1.");
+            throw new IllegalArgumentException("LENGTH cannot be < 1.");
         } else {
             this.LENGTH = LENGTH;
         }
         if (WIDTH < 1) {
-            throw new IllegalArgumentException("WIDTH cannot be <= 0.");
+            throw new IllegalArgumentException("WIDTH cannot be < 0.");
         } else {
             this.WIDTH = WIDTH;
         }
